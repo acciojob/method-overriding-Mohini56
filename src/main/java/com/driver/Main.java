@@ -20,11 +20,11 @@ class B extends A {
 public class Main {
 
     public static void main(String[] args) {
-        // Task 3: Create an object of class B
-        B objB = new B();
-
-        // Task 5: Call the overridden method from obj of class B
-        String result = objB.meth();
-        System.out.println(result);
+       
+        A obj = new A();
+        System.out.println(obj.meth());
+       
+        A obj1 = new B();
+        System.out.println(obj1.meth());
     }
 }
