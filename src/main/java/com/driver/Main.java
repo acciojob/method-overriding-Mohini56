@@ -21,10 +21,10 @@ public class Main {
 
     public static void main(String[] args) {
        
-        A obj = new A();
+        A obj = new B();
         System.out.println(obj.meth());
        
-        A obj1 = new B();
+        B obj1 = new B();
         System.out.println(obj1.meth());
     }
 }
